@@ -1,3 +1,3 @@
 # TimedProgressBar
 Sometimes it is required to wait for some fixed amount time to do any task.
-TimedProgressBar is based on JProgressBar (a Java Swing component) to show progress for on given amount of time.
+TimedProgressBar is based on JProgressBar (a Java Swing component) to show progress for given duration of amount of time.
