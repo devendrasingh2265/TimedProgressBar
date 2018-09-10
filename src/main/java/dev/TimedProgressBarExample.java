@@ -5,7 +5,7 @@ import javax.swing.JFrame;
 /**
  * @author DeV
  */
-public class TimedProgressBarTester {
+public class TimedProgressBarExample {
 	public static void main(String[] args) {
 		JFrame frame = new JFrame();
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -15,9 +15,9 @@ public class TimedProgressBarTester {
 
 //	------------------THIS IS WHAT YOU NEED TO DO--------------------------------
 		TimedProgressBar timedProgressBar = TimedProgressBar.getProgressBar(10_000);
-		TimedEvent finishEvent = () -> finishTask(timedProgressBar);
+//		TimedEvent finishEvent = () -> finishTask(timedProgressBar);
 		frame.add(timedProgressBar.getJprogressBar());
-		timedProgressBar.setOnFinish(finishEvent);
+//		timedProgressBar.setOnFinish(finishEvent);
 		timedProgressBar.startProgress();
 
 //		--------------------------------------------------
